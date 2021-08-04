@@ -39,5 +39,8 @@
 		"terminal-link": "^3.0.0",
 		"through2": "^4.0.2",
 		"tmp": "^0.2.1"
+	},
+	"engines": {
+		"node": ">=12"
 	}
 }
