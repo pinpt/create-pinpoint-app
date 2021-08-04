@@ -1,6 +1,6 @@
 {
 	"name": "create-pinpoint-app",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "Create a Pinpoint Application",
 	"bin": {
 		"create-pinpoint-app": "bin/cli.mjs"
@@ -33,6 +33,8 @@
 		"ora": "^5.4.1",
 		"prompts": "^2.4.1",
 		"recursive-copy": "^2.0.13",
+		"slugify": "^1.6.0",
+		"systeminformation": "^5.8.0",
 		"terminal-link": "^3.0.0",
 		"through2": "^4.0.2",
 		"tmp": "^0.2.1"
