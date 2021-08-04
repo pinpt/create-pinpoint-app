@@ -1,6 +1,6 @@
 {
 	"name": "create-pinpoint-app",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Create a Pinpoint Application",
 	"bin": {
 		"create-pinpoint-app": "bin/cli.mjs"
@@ -39,5 +39,8 @@
 		"terminal-link": "^3.0.0",
 		"through2": "^4.0.2",
 		"tmp": "^0.2.1"
+	},
+	"engines": {
+		"node": ">=12"
 	}
 }
