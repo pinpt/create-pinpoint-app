@@ -7,13 +7,18 @@ import { copyAndFilterFiles } from '../lib/copy-template-files.mjs';
 import { showHelpMessage } from '../lib/show-help-message.mjs';
 import { showVersionMessage } from '../lib/show-version-message.mjs';
 import { getSignup } from '../lib/signup.mjs';
+import { error } from '../lib/util.mjs';
 
 (async () => {
-	await showHelpMessage();
-	await showVersionMessage();
-	await showWelcomeMessage();
-	await getSignup();
-	await copyAndFilterFiles();
-	await installProjectDependencies();
-	await showSuccessMessage();
+	try {
+		await showHelpMessage();
+		await showVersionMessage();
+		await showWelcomeMessage();
+		await getSignup();
+		await copyAndFilterFiles();
+		await installProjectDependencies();
+		await showSuccessMessage();
+	} catch (ex) {
+		error(ex.message, true);
+	}
 })();
