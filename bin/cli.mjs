@@ -20,8 +20,12 @@ export const optionSpec = {
 	'use-npm': { type: Boolean, description: 'Use npm even if running from yarn', default: false },
 	dir: {
 		type: String,
-		description: 'The output folder to generate your project into',
+		description: 'The output directory to generate your project into',
 		default: path.resolve(process.cwd()),
+	},
+	'template-dir': {
+		type: String,
+		description: 'The template directory to generate your project from',
 	},
 	debug: { type: Boolean, description: 'Turn on verbose debug logging', default: false },
 };
