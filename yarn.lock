@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@pinpt/cli@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@pinpt/cli/-/cli-0.0.5.tgz#e692d9ec3d8393b50714af68e029b388ca9381db"
-  integrity sha512-oocECV7XAzkLEt1l7fjWk5UKUskomcRjoBaw3o0B4k3DzR3Ihf7yNfLGGZ8DHfwfROjcyGshLIUZ3fI1Yqql9g==
+"@pinpt/cli@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@pinpt/cli/-/cli-0.0.6.tgz#a4dfe52b143ac84af06bcdd227b5be5410a0beb3"
+  integrity sha512-ikqWXBKf3wKqNuDOXcPHwJ1lHQ6KVvywWQ7/ihy4g4/+SS9m9M3Z+ggzNcDtlv8AvDToT2udEUaGzn0m80RF6g==
   dependencies:
     adm-zip "^0.5.5"
     arg "^5.0.0"

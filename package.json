@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://pinpoint.com",
 	"dependencies": {
-		"@pinpt/cli": "0.0.5"
+		"@pinpt/cli": "0.0.6"
 	},
 	"engines": {
 		"node": ">=12"
