@@ -1,6 +1,6 @@
 {
 	"name": "create-pinpoint-app",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Create a Pinpoint Application",
 	"bin": {
 		"create-pinpoint-app": "bin/cli.mjs"
@@ -9,6 +9,11 @@
 		"bin",
 		"lib"
 	],
+	"@pinpt/cli": {
+		"yarn": "yarn create pinpoint-app",
+		"npx": "npx create-pinpoint-app",
+		"default": "create-pinpoint-app"
+	},
 	"scripts": {},
 	"repository": {
 		"type": "git",
@@ -24,21 +29,7 @@
 	},
 	"homepage": "https://pinpoint.com",
 	"dependencies": {
-		"arg": "^5.0.0",
-		"cfonts": "^2.9.3",
-		"execa": "^5.1.1",
-		"fs-extra": "^10.0.0",
-		"got": "^11.8.2",
-		"kleur": "^4.1.4",
-		"ora": "^5.4.1",
-		"prompts": "^2.4.1",
-		"recursive-copy": "^2.0.13",
-		"rimraf": "^3.0.2",
-		"slugify": "^1.6.0",
-		"systeminformation": "^5.8.0",
-		"terminal-link": "^3.0.0",
-		"through2": "^4.0.2",
-		"tmp": "^0.2.1"
+		"@pinpt/cli": "^0.0.2"
 	},
 	"engines": {
 		"node": ">=12"
