@@ -9,7 +9,6 @@ import { showHelpMessage } from '@pinpt/cli/lib/show-help-message.mjs';
 import { showVersionMessage } from '@pinpt/cli/lib/show-version-message.mjs';
 import { init, error } from '@pinpt/cli/lib/util.mjs';
 import { getArgs } from '@pinpt/cli/lib/args.mjs';
-import { showSignup } from '../lib/signup.mjs';
 
 export const optionSpec = {
 	slug: { type: String, description: 'The slug for your Pinpoint site' },
@@ -38,7 +37,6 @@ export const optionSpec = {
 		await showVersionMessage(cmd);
 		await showHelpMessage(cmd);
 		await showWelcomeMessage();
-		await showSignup(cmd);
 		await copyAndFilterFiles(cmd);
 		await installProjectDependencies(cmd);
 		await showSuccessMessage(cmd);
