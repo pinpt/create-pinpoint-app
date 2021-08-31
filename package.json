@@ -1,6 +1,6 @@
 {
 	"name": "create-pinpoint-app",
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"description": "Create a Pinpoint Application",
 	"bin": {
 		"create-pinpoint-app": "bin/cli.mjs"
